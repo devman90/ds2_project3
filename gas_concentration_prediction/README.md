@@ -3,6 +3,14 @@
 
 Link: https://www.kaggle.com/c/samsung-ds2-ds6-traffic-occupancy-rate/
 
+### 데이터셋 준비
+repository에는 필요한 csv 데이터셋이 들어있지 않음. 필요한 데이터 셋을 하위폴더(kaggle/input/)에 위치 시켜야 함.
+  
+kaggle/input/train1.csv  
+...  
+kaggle/input/train12.csv  
+kaggle/input/test_x.csv  
+  
 ### Description
 이 in-class Kaggle competition에서는 가스 센서데이터를 활용하여 CO농도를 예측하는 모델을 구현합니다. CO 가스 농도는 14개의 금속산화물 센서로 측정되었으며, 25h 동안의 CO 농도변화를 한번의 실험셋트로 정의하고, 총 13일동안 13번의 실험셋트를 수행하여 수집된 데이터 입니다. 12일 동안 측정된 데이터(train1~train12.csv)를 이용해 마지막 날 데이터(test_x.csv)의 CO농도를 예측하는 모델을 구현하는 것이 과제목표 입니다. 데이터셋에 대한 상세 내용은 아래 링크를 참고하세요. https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+temperature+modulation 모델을 통해 얻은 예측 결과는 하루 20회까지 submission할 수 있으며, MAE(Mean Absolute Error)로 평가됩니다.  
 
