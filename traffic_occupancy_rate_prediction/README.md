@@ -1,6 +1,8 @@
 # Samsung DS2 - Traffic occupancy rate prediction
 ## Predict occupancy rate of freeways
 
+Link: https://www.kaggle.com/c/samsung-ds2-ds6-traffic-occupancy-rate
+
 ### Description
 이 데이터는 미국 고속도로의 occupancy rate을 860개 지점에 대해 측정한 데이터입니다. 2008년 1월부터 2009년 3월까지의 데이터로 저희가 풀게 될 문제는 3월 중 2일간 (2009.03.16, 2009.03.24)의 occupancy rate을 예측하는 문제입니다. 하루 최대 20번까지 제출이 가능합니다.  
 
